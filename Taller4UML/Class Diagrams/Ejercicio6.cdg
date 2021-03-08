@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Ejercicio6">
+  <ClassDiagramComponents>
+    <Class name="Libro" package="" visibility="public" xPosition="147.0" yPosition="38.0">
+      <Fields>
+        <Field name="titulo" type="String" visibility="private"/>
+        <Field name="ernonbre" type="String" visibility="private"/>
+        <Field name="donombre" type="String" visibility="private"/>
+        <Field name="erapellido" type="String" visibility="private"/>
+        <Field name="ISBN" type="String" visibility="private"/>
+        <Field name="paginas" type="int" visibility="private"/>
+        <Field name="edicion" type="String" visibility="private"/>
+        <Field name="editorial" type="String" visibility="private"/>
+        <Field name="ciudad" type="String" visibility="private"/>
+        <Field name="pais" type="String" visibility="private"/>
+        <Field name="fechaedicion" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="setters" returnType="void" visibility="public"/>
+        <Method name="getters" returnType="String" visibility="public"/>
+        <Method name="leer" returnType="void" visibility="public"/>
+        <Method name="Libro" returnType="void" visibility="public"/>
+        <Method name="Mostrar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

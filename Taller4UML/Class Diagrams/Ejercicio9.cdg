@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Ejercicio9">
+  <ClassDiagramComponents>
+    <Class name="Fraccion" package="" visibility="public" xPosition="190.0" yPosition="134.0">
+      <Fields>
+        <Field name="numerador" type="int" visibility="private"/>
+        <Field name="denominador" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getNumerador" returnType="int" visibility="public"/>
+        <Method name="getDenominador" returnType="int" visibility="public"/>
+        <Method name="setNumerador" returnType="void" visibility="public">
+          <Argument type="int" name="numerador"/>
+        </Method>
+        <Method name="setDenominador" returnType="void" visibility="public">
+          <Argument type="int" name="denominador"/>
+        </Method>
+        <Method name="sumarFraccion" returnType="void" visibility="public"/>
+        <Method name="restarFraccion" returnType="void" visibility="public"/>
+        <Method name="multiplicarFraccion" returnType="void" visibility="public"/>
+        <Method name="dividirFraccion" returnType="void" visibility="public"/>
+        <Method name="simplificarFraccion" returnType="void" visibility="public"/>
+        <Method name="fraccion" returnType="imprimir" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
